@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List 2</title>
+    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body onload="time()">
+    <div class="todo-container">
+
+        <div class="date-hour">
+            <p id="date">Date</p>
+            <p id="hour">Hour</p>
+        </div>
+
+        <header>
+            <h1>To Do List</h1>
+        </header>
+
+        <form action="" id="todo-form">
+            <p>Add Your Task Here</p>
+            <div class="form-control">
+                <input type="text" id="todo-input" placeholder="Type here about your next task">
+                <button type="submit">
+                    <i class="fa fa-plus"></i>
+                </button>
+            </div>
+        </form> 
+        
+        <form action="" id="edit-form" class="hide">
+            <p>Edit Your Task</p>
+            <div class="form-control">
+                <input type="text" id="edit-input" placeholder="Type here about your next task">
+                <button type="submit">
+                    <i class="fa fa-edit"></i>
+                </button>
+            </div>
+
+            <button type="button" id="cancel-edit-btn">Cancel</button>
+        </form>
+
+        <div class="todo-list" id="todo-list">
+            <div class="todo">
+                <h3>Some Default Task</h3>
+                <button class="finish-todo">
+                    <i class="fa fa-check"></i>
+                </button>
+                <button class="edit-todo">
+                    <i class="fa fa-edit"></i>
+                </button>
+                <button class="remove-todo">
+                    <i class="fa fa-trash-o"></i>
+                </button>
+            </div>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 0;
+    text-align: center;
+    background-color: rgba(65, 54, 212, 0.781);
+    color:brown;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+}
+.container{
+    border: 3px solid #f11515;
+    padding: 5px;
+    justify-content: center;
+    background: rgb(252, 240, 134);
+}
+.inner{
+    border: 3px solid #f11515;
+    background: rgb(148, 252, 134);
+}
+.i1{
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: rgb(33, 68, 44);
+    font-size: larger;
+}
+.p1{
+    color: black;
+    font-size: x-large;
+}
+.a1{
+    color: black;
+    font-size: x-large;
+}
+.p2{
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: larger;
+    color: rgb(33, 68, 44);
+}
