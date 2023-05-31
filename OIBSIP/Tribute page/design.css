@@ -7,19 +7,21 @@ body {
     margin-right: 150px;
     padding: 0;
     text-align: center;
-    background-color: rgba(65, 54, 212, 0.781);
+    background-color: rgb(240, 206, 206);
     color:brown;
     font-family: 'Roboto Mono', monospace;
     font-family: 'Roboto Slab', serif;
 }
 .container{
-    border: 3px solid #f11515;
+    border: 3px solid rgb(148, 252, 134);
+    border-radius: 35px;
     padding: 5px;
     justify-content: center;
-    background: rgb(252, 240, 134);
+    background: rgb(148, 252, 134);
 }
 .inner{
-    border: 3px solid #f11515;
+    border: 3px solid #0c0909;
+    border-radius: 35px;
     background: rgb(148, 252, 134);
 }
 .i1{
