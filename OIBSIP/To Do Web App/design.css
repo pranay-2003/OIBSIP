@@ -5,8 +5,7 @@
 }
  body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: rgb(red, green, blue);
-    background: radial-gradient(circle, rgb(255,255,255,1) 0%, rgb(54, 201, 223) 100%);
+    background-image: url("bg.jpg");
  } 
   .form-control {
     display: flex;
@@ -18,7 +17,7 @@
     border: 1px solid #858585;
   }
   .form-control button {
-    background-color: #76df76;
+    background-color: #cdd1cd;
     border: 0px;
   }
   .form-control button:hover {
@@ -57,8 +56,10 @@
   }
   .todo-container {
     background-color: #ecf0f1;
-    border-radius: 15px;
-    width: 450px;
+    background-image: url("bg.jpg");
+    border: 3px solid rgb(201, 33, 33);
+    border-radius: 10px;
+    width: 500px;
     margin: 3rem auto;
     padding: 1.5rem;
   }
@@ -105,7 +106,7 @@
     background: #ecf0f1;
   }
   .done h3 {
-    color: green;
+    color: rgb(255, 255, 255);
     text-decoration: line-through;
     font-style: italic;
   }
